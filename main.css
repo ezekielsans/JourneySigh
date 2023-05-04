@@ -1,31 +1,43 @@
 * {
     padding: 0%;
     margin: 0%;
-    width: 100%;
+    /* width: 100%; */
 
 }
-.navbar{
-    margin: 1rem 1rem 1rem 1rem;
-    padding: 1rem 1rem 1rem 1rem  ;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(248, 20%, 8%);
+body{
+    background-color: rgb(9 9 27);
+    margin: 0%;
+}
+.page-container{
+    width: 100vw;
+    min-height: 100vh;
 
+}
+
+header{
+    padding-left: 465px;
+    padding-right: 465px;
+    background-color: hsl(248, 20%, 8%);
+}
+.navbar{
+
+    padding: 2rem 1rem 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+   justify-content: center; 
+    align-items: center; 
 }
 .navbar ul{
     display: flex;
 }
 .navbar ul li {
-    /* display: inline-block; */
+    display: inline-block;
     list-style: none;
-    /* align-items: center;
-    justify-content: center; */
-    /* margin-right: 1rem;
-    margin-left: 1rem; */
+    align-items: center;
+   margin-right: 1rem;
+    margin-left: 1rem;
     color: aliceblue;
-    /* justify-content: center; */
+    font-size: 16px;
+
 
     
 }
@@ -38,7 +50,9 @@ nav{
 
 .container {
     justify-content: center;
-    align-items: center;
+    align-items: left;
     padding: 10em 20em;
     margin: 10em 20em;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
